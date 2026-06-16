@@ -19,7 +19,7 @@ def predict():
     if request.method == 'POST':
         # Get data from HTML form
         age = int(request.form['age'])
-        bmi = float(request.form['bmi'])
+        bmi = float(request.form['bmii'])
         smoker_status = request.form['smoker']
 
         # Convert smoker text to number (Yes=1, No=0)
