@@ -30,3 +30,4 @@ print(f"Sample Prediction (Age: 30, BMI: 25, Non-Smoker): ${model.predict([[30, 
 with open('insurance_model.pkl', 'wb') as file:
     pickle.dump(model, file)
     print("Model saved as insurance_model.pkl")
+
